@@ -19,3 +19,11 @@ Mac installation example:
 ```bash
 git clone https://github.com/borjacampina/sublimetext-edit_in_new_tab-plugin "$HOME/Library/Application Support/Sublime Text 3/Packages/EditInNewTab"
 ```
+
+## Adding a keyboard shortcut
+`Sublime Text 3` > `Preferences` > `Key Bindings`
+```json
+[
+  { "keys": ["super+shift+w"], "command": "edit_in_new_tab" }
+]
+```
